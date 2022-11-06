@@ -1,0 +1,33 @@
+#
+#spring.application.name=netflix-zuul-api-gateway-server
+#server.port=8765
+#
+# 
+#
+#eureka.client.service-url.default-zone=http://localhost:8761/eureka
+
+server:
+  port: 8765
+
+spring:  application:    name: api-gateway
+    
+#  cloud: 
+#    gateway:
+#      routes:
+#        - id: exchange
+#          uri: http://localhost:8000/
+#          predicates:
+#            - Path=/currency-exchange/**
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+
+          
+          
+          
+          
+          
+          
+          
